@@ -1,5 +1,11 @@
-Copyright (c) 2020 - present, LLC “V Kontakte”
+Pod::Spec.new do |s|
+  s.name = 'VKSDK'
+  s.version = '0.88.0-alpha.9457440'
+  s.summary = 'VKSDK'
+  s.authors = 'VK.com'
 
+  s.homepage = 'https://vk.com/superappkit'
+  s.license = { :type => 'Copyright (c) 2020 - present, LLC “V Kontakte”', :text => <<-LICENSE
 1. Permission is hereby granted to any person obtaining a copy of this Software to
 use the Software without charge.
 
@@ -9,7 +15,7 @@ create derivative works based upon the Software or any part thereof.
 
 3. Termination
 This License is effective until terminated. LLC “V Kontakte” may terminate this
-License at any time without any without any negative consequences to our rights.
+License at any time without any negative consequences to our rights.
 You may terminate this License at any time by deleting the Software and all copies
 thereof. Upon termination of this license for any reason, you shall continue to be
 bound by the provisions of Section 2 above.
@@ -23,3 +29,21 @@ PURPOSES OF USE. LLC “V KONTAKTE” CAN NOT GUARANTEE AND DOES NOT PROMISE ANY
 SPECIFIC RESULTS OF USE OF THE SOFTWARE.
 UNDER NO SIRCUMSTANCES LLC “V KONTAKTE” BEAR LIABILITY TO THE LICENSEE OR ANY
 THIRD PARTIES FOR ANY DAMAGE IN CONNECTION WITH USE OF THE SOFTWARE.
+    LICENSE
+  }
+
+  s.ios.deployment_target = '11.4'
+  s.swift_version = '5.0'
+  s.cocoapods_version = '>= 1.9.0'
+
+  
+
+  s.vendored_frameworks = 'VKSDK.xcframework'
+  s.source = {
+    :http => "https://artifactory-external.vkpartner.ru/artifactory/superappkit/0.88.0-alpha.9457440/SDK.zip",
+    :sha256 => "2b0ca93eca98dae5e4a0317d36f61666876702f0d9f68fb51e5f599c366af95a"
+  }
+
+  
+
+end
