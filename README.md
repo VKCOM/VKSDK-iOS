@@ -4,4 +4,4 @@ The VK SDK is a collection of libraries that will help:
 - turn your app into a super app by integrating services into your app without having to put in any additional effort into development
 
 The general module of the SDK is VK ID, a single platform for authentication and user registration in various VK ecosystem services.
-For details, see [Documentation](https://platform.vk.com/).
+For details, see [Documentation](https://platform.vk.com/?p=DocsDashboard&docs=install-sdk_install-sdk-ios-v2).
