@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'VKSDK'
+  s.name = 'VK-SDK'
   s.version = '0.89.0'
   s.summary = 'VKSDK'
   s.authors = 'VK.com'
