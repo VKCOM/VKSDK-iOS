@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name = 'VK-SDK'
-  s.version = '0.89.0'
-  s.summary = 'VKSDK'
+  s.version = '0.90.0'
+  s.summary = 'VK-SDK'
   s.authors = 'VK.com'
 
-  s.homepage = 'https://vk.com/superappkit'
+  s.homepage = 'https://platform.vk.com/docs/start-page'
   s.license = { :type => 'Copyright (c) 2020 - present, LLC “V Kontakte”', :text => <<-LICENSE
 1. Permission is hereby granted to any person obtaining a copy of this Software to
 use the Software without charge.
@@ -35,13 +35,14 @@ THIRD PARTIES FOR ANY DAMAGE IN CONNECTION WITH USE OF THE SOFTWARE.
   s.ios.deployment_target = '11.4'
   s.swift_version = '5.0'
   s.cocoapods_version = '>= 1.9.0'
+  s.default_subspecs = :none
 
   
 
   s.vendored_frameworks = 'VKSDK.xcframework'
   s.source = {
-    :http => "https://artifactory-external.vkpartner.ru/artifactory/superappkit/0.89.0/SDK.zip",
-    :sha256 => "0d6f79403ad6c28293b7610bd04a23bfd76053f79d4cd6123dec6240c452ed72"
+    :http => "https://artifactory-external.vkpartner.ru/artifactory/superappkit/0.90.0/SDK.zip",
+    :sha256 => "3687bb2045848268366dd19e44ffd5edc62a2a4508aa9d3b847643dae4bf0c53"
   }
 
   
