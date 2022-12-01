@@ -1,5 +1,5 @@
 // swift-tools-version:5.5
-// package-version:0.91.0
+// package-version:0.91.1
 import PackageDescription
 
 let package = Package(
@@ -24,8 +24,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "VKSDK",
-            url: "https://artifactory-external.vkpartner.ru/artifactory/superappkit/0.91.0/SDK.zip",
-            checksum: "71cec8e27dc56d26438776f5c77431886d3a4c2dc9a247ff216285d0b451f172"
+            url: "https://artifactory-external.vkpartner.ru/artifactory/superappkit/0.91.1/SDK.zip",
+            checksum: "6e39801b68bc0c664885e19cf152f71b39a05768bba94e6886201d3ac7dc02fb"
         )
     ]
 )
