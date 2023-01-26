@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>demo_app</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>vk7991169</string>
+			</array>
+		</dict>
+	</array>
+	<key>ClientId</key>
+	<string>$(CLIENT_ID)</string>
+	<key>ClientSecret</key>
+	<string>$(CLIENT_SECRET)</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>vkauthorize-silent</string>
+	</array>
+	<key>SilentTokenExchangeURL</key>
+	<string>https://vk.com/vkid_test_utils.php?act=external_backend_imitation&amp;v=5.141&amp;app_id=7991169</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+</dict>
+</plist>
