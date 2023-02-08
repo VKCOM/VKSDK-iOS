@@ -146,6 +146,10 @@ extension AuthViewController: VKIDFlowDelegate {
             case .authorized(let authorized):
                 os_log("Authorization succeeded with authorized state")
 
+                if let personalData = authorized.personalData {
+                    os_log("User's phone: %@, email: %@", personalData.phone ?? "empty", personalData.email ?? "empty")
+                }
+
                 /// In authorized state you can request user's profile
                 authorized.requestProfile { result in
                     do {
