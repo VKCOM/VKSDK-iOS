@@ -17,41 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		17A3497729939309003E9B60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 17A3496F29939309003E9B60 /* VKSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6F9D7272434FB7600713860;
-			remoteInfo = VKSDK;
-		};
-		17A3497929939309003E9B60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 17A3496F29939309003E9B60 /* VKSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A2C94D46273CFCFE00C674FA;
-			remoteInfo = VKSDKExternal;
-		};
-		17A3497B29939309003E9B60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 17A3496F29939309003E9B60 /* VKSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A2DB143A2912653B0006E20C;
-			remoteInfo = VKSDKForDemo;
-		};
-		17A3497D29939309003E9B60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 17A3496F29939309003E9B60 /* VKSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 15FC82E5281964AC00E7DAD8;
-			remoteInfo = VKSDKTests;
-		};
-		17A3497F29939316003E9B60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 17A3496F29939309003E9B60 /* VKSDK.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D6F9D7262434FB7600713860;
-			remoteInfo = VKSDK;
-		};
 		A2BC59942837E03100F8E7E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9547916F272C350600BFF2B6 /* Project object */;
@@ -62,7 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17A3496F29939309003E9B60 /* VKSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VKSDK.xcodeproj; path = ../VKSDK/VKSDK.xcodeproj; sourceTree = "<group>"; };
 		95479177272C350600BFF2B6 /* VKSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9547917A272C350600BFF2B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9547917E272C350600BFF2B6 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
@@ -93,31 +57,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17A3496E299392E3003E9B60 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				17A3496F29939309003E9B60 /* VKSDK.xcodeproj */,
-			);
-			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		17A3497029939309003E9B60 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				17A3497829939309003E9B60 /* VKSDK.framework */,
-				17A3497A29939309003E9B60 /* VKSDK.framework */,
-				17A3497C29939309003E9B60 /* VKSDK.framework */,
-				17A3497E29939309003E9B60 /* VKSDKTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		9547916E272C350600BFF2B6 = {
 			isa = PBXGroup;
 			children = (
 				95479179272C350600BFF2B6 /* VKSDKExample */,
 				A2BC598F2837E03100F8E7E1 /* VKSDKExampleUITests */,
-				17A3496E299392E3003E9B60 /* Dependencies */,
 				95479178272C350600BFF2B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -166,7 +110,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				17A3498029939316003E9B60 /* PBXTargetDependency */,
 			);
 			name = VKSDKExample;
 			packageProductDependencies = (
@@ -227,12 +170,6 @@
 			);
 			productRefGroup = 95479178272C350600BFF2B6 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 17A3497029939309003E9B60 /* Products */;
-					ProjectRef = 17A3496F29939309003E9B60 /* VKSDK.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				95479176272C350600BFF2B6 /* VKSDKExample */,
@@ -240,37 +177,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		17A3497829939309003E9B60 /* VKSDK.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = VKSDK.framework;
-			remoteRef = 17A3497729939309003E9B60 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		17A3497A29939309003E9B60 /* VKSDK.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = VKSDK.framework;
-			remoteRef = 17A3497929939309003E9B60 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		17A3497C29939309003E9B60 /* VKSDK.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = VKSDK.framework;
-			remoteRef = 17A3497B29939309003E9B60 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		17A3497E29939309003E9B60 /* VKSDKTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = VKSDKTests.xctest;
-			remoteRef = 17A3497D29939309003E9B60 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		95479175272C350600BFF2B6 /* Resources */ = {
@@ -313,11 +219,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		17A3498029939316003E9B60 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VKSDK;
-			targetProxy = 17A3497F29939316003E9B60 /* PBXContainerItemProxy */;
-		};
 		A2BC59952837E03100F8E7E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 95479176272C350600BFF2B6 /* VKSDKExample */;
@@ -587,7 +488,7 @@
 			repositoryURL = "git@github.com:VKCOM/VKSDK-iOS.git";
 			requirement = {
 				kind = exactVersion;
-				version = 0.97.0;
+				version = 0.97.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

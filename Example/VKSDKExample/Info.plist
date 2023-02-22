@@ -11,7 +11,7 @@
 			<string>demo_app</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>vk7991169</string>
+				<string>$(URL_SCHEME)</string>
 			</array>
 		</dict>
 	</array>
@@ -24,7 +24,7 @@
 		<string>vkauthorize-silent</string>
 	</array>
 	<key>SilentTokenExchangeURL</key>
-	<string>https://vk.com/vkid_test_utils.php?act=external_backend_imitation&amp;v=5.141&amp;app_id=7991169</string>
+	<string>$(SILENT_TOKEN_EXCHANGE_URL)</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

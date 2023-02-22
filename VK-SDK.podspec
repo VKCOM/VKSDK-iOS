@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'VK-SDK'
-  s.version = '0.97.0'
+  s.version = '0.97.1'
   s.summary = 'VK-SDK'
   s.authors = 'VK.com'
 
@@ -41,8 +41,8 @@ THIRD PARTIES FOR ANY DAMAGE IN CONNECTION WITH USE OF THE SOFTWARE.
 
   s.vendored_frameworks = 'VKSDK.xcframework'
   s.source = {
-    :http => "https://artifactory-external.vkpartner.ru/artifactory/superappkit/0.97.0/SDK.zip",
-    :sha256 => "cae04af2dc58fe989e31d3800493c2e44dca855c0dcacb3896a5013be1cba16e"
+    :http => "https://artifactory-external.vkpartner.ru/artifactory/superappkit/0.97.1/SDK.zip",
+    :sha256 => "4bf7e059ea3730f354f91c931da17f6fd3fa73f749783f7ba9e738ff519609bd"
   }
 
   
