@@ -492,7 +492,7 @@
 			repositoryURL = "git@github.com:VKCOM/VKSDK-iOS.git";
 			requirement = {
 				kind = exactVersion;
-				version = "0.101.2-alpha.10885179";
+				version = 0.103.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
