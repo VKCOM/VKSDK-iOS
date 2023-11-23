@@ -1,10 +1,10 @@
 // swift-tools-version:5.5
-// package-version:0.105.0
+// package-version:0.108.0
 import PackageDescription
 
 let package = Package(
     name: "VKSDK",
-    platforms: [.iOS("11.4")],
+    platforms: [.iOS("12.0")],
     products: [
         .library(
             name: "VK",
@@ -24,8 +24,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "VKSDK",
-            url: "https://artifactory-external.vkpartner.ru/artifactory/superappkit/0.105.0/VKSDK.zip",
-            checksum: "f9dccb3bc031263d4c9b67b761bfe3afb11cc3a81502cabdc4880bdb7250305d"
+            url: "https://artifactory-external.vkpartner.ru/artifactory/superappkit/0.108.0/VKSDK.zip",
+            checksum: "4416487fdb9b6e4e953671497dbf190409fc5aba8d3931647bbcd8515975a2a7"
         )
     ]
 )
